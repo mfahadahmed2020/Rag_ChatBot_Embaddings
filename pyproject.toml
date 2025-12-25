@@ -1,0 +1,14 @@
+[project]
+name = "rag-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "agents>=1.4.0",
+    "cohere>=5.20.1",
+    "dotenv>=0.9.9",
+    "qdrant-client>=1.16.2",
+    "requests>=2.32.5",
+    "trafilatura>=2.0.0",
+]
